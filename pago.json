@@ -1,0 +1,69 @@
+{
+  "Serie": "CPPAGO",
+  "Folio": "1",
+  "SubTotal": "0",
+  "Total": "0",
+  "Moneda": "XXX",
+  "TipoDeComprobante": "P",
+  "LugarExpedicion": "{{LUGAR_EXPEDICION}}",
+  "Exportacion": "01",
+  "Emisor": {
+    "Rfc": "{{EMISOR_RFC}}",
+    "Nombre": "{{EMISOR_NOMBRE}}",
+    "RegimenFiscal": "{{EMISOR_REGIMENFISCAL}}"
+  },
+  "Receptor": {
+    "Rfc": "{{RECEPTOR_RFC}}",
+    "Nombre": "{{RECEPTOR_NOMBRE}}",
+    "DomicilioFiscalReceptor": "{{RECEPTOR_DOMICILIOFISCAL}}",
+    "RegimenFiscalReceptor": "{{RECEPTOR_REGIMENFISCAL}}",
+    "UsoCFDI": "CP01"
+  },
+  "Conceptos": [
+    {
+      "ClaveProdServ": "84111506",
+      "Cantidad": "1",
+      "ClaveUnidad": "ACT",
+      "Descripcion": "Pago",
+      "ValorUnitario": "0",
+      "Importe": "0",
+      "ObjetoImp": "01"
+    }
+  ],
+  "Complemento": {
+    "Any": [
+      {
+        "Pago20:Pagos": {
+          "Pago": [
+            {
+              "FechaPago": "2021-09-24T01:20:33",
+              "FormaDePagoP": "01",
+              "MonedaP": "MXN",
+              "Monto": "200.00",
+              "NumOperacion": "12",
+              "TipoCambioP": "1",
+              "DoctoRelacionado": [
+                {
+                  "IdDocumento": "a9543552-167e-4b0c-94e5-b86024dc10f4",
+                  "Serie": "FAC",
+                  "Folio": "0000032",
+                  "MonedaDR": "MXN",
+                  "MetodoDePagoDR": "PPD",
+                  "NumParcialidad": "1",
+                  "ImpSaldoAnt": "200.00",
+                  "ImpPagado": "200.00",
+                  "ImpSaldoInsoluto": "0.00",
+                  "ObjetoImpDR": "01",
+                  "EquivalenciaDR": "1"
+                }
+              ]
+            }
+          ],
+          "Totales": {
+            "MontoTotalPagos": "200.00"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "Serie": "PRUEBATRASLADO",
+  "Folio": "1",
+  "CondicionesDePago": "CondicionesDePago",
+  "SubTotal": "0.00",
+  "Descuento": "0.00",
+  "Moneda": "AMD",
+  "TipoCambio": "1",
+  "Total": "0.00",
+  "TipoDeComprobante": "T",
+  "Exportacion": "01",
+  "LugarExpedicion": "{{LUGAR_EXPEDICION}}",
+  "Emisor": {
+    "Rfc": "{{EMISOR_RFC}}",
+    "Nombre": "{{EMISOR_NOMBRE}}",
+    "RegimenFiscal": "{{EMISOR_REGIMENFISCAL}}"
+  },
+  "Receptor": {
+    "Rfc": "{{RECEPTOR_RFC}}",
+    "Nombre": "{{RECEPTOR_NOMBRE}}",
+    "DomicilioFiscalReceptor": "{{RECEPTOR_DOMICILIOFISCAL}}",
+    "RegimenFiscalReceptor": "{{RECEPTOR_REGIMENFISCAL}}",
+    "UsoCFDI": "{{RECEPTOR_USOCFDI}}"
+  },
+  "Conceptos": [
+    {
+      "ClaveProdServ": "50211503",
+      "NoIdentificacion": "None",
+      "Cantidad": "1.0",
+      "ClaveUnidad": "H87",
+      "Unidad": "Pieza",
+      "Descripcion": "Cigarros",
+      "ValorUnitario": "0.00",
+      "Importe": "0.00",
+      "Descuento": "0.00",
+      "ObjetoImp": "01"
+    }
+  ]
+}

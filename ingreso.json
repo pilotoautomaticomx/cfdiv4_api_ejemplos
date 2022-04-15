@@ -1,0 +1,59 @@
+{
+  "Serie": "XYZ",
+  "Folio": "1",
+  "CondicionesDePago": "CondicionesDePago",
+  "SubTotal": "10.00",
+  "Descuento": "0.00",
+  "Moneda": "AMD",
+  "TipoCambio": "1",
+  "Total": "10.00",
+  "TipoDeComprobante": "I",
+  "Exportacion": "01",
+  "LugarExpedicion": "64000",
+  "Emisor": {
+    "Rfc": "PAU1207301E5",
+    "Nombre": "PILOTO AUTOMATICO",
+    "RegimenFiscal": "601"
+  },
+  "Receptor": {
+    "Rfc": "PAU1207301E5",
+    "Nombre": "PILOTO AUTOMATICO",
+    "DomicilioFiscalReceptor": "64000",
+    "RegimenFiscalReceptor": "601",
+    "UsoCFDI": "G03"
+  },
+  "Conceptos": [
+    {
+      "ClaveProdServ": "50211503",
+      "NoIdentificacion": "None",
+      "Cantidad": "1.0",
+      "ClaveUnidad": "H87",
+      "Unidad": "Pieza",
+      "Descripcion": "Cigarros",
+      "ValorUnitario": "10.00",
+      "Importe": "10.00",
+      "Descuento": "0.00",
+      "ObjetoImp": "02",
+      "Impuestos": {
+        "Traslados": [
+          {
+            "Base": "1",
+            "Importe": "1",
+            "Impuesto": "002",
+            "TasaOCuota": "0.160000",
+            "TipoFactor": "Tasa"
+          }
+        ],
+        "Retenciones": [
+          {
+            "Base": "1",
+            "Importe": "1",
+            "Impuesto": "002",
+            "TasaOCuota": "0.040000",
+            "TipoFactor": "Tasa"
+          }
+        ]
+      }
+    }
+  ]
+}
