@@ -1,0 +1,63 @@
+{
+    "Serie": "A",
+    "Moneda": "MXN",
+    "TipoDeComprobante": "I",
+    "LugarExpedicion": "64000",
+    "Exportacion": "01",
+    "MetodoPago": "PUE",
+    "FormaPago": "03",
+    "Descuento": "0.00",
+    "SubTotal": "26232.75",
+    "Total": "29380.68",
+    "Emisor": {
+      "Rfc": "PAU1207301E5",
+      "Nombre": "PILOTO AUTOMATICO",
+      "RegimenFiscal": "601"
+    },
+    "Receptor": {
+      "Rfc": "XAXX010101000",
+      "Nombre": "PUBLICO EN GENERAL",
+      "DomicilioFiscalReceptor": "64000",
+      "RegimenFiscalReceptor": "616",
+      "UsoCFDI": "S01"
+    },
+    "InformacionGlobal": {
+        "Periodicidad": "04",
+        "Meses": "04",
+        "Año": "2022"
+    },
+    "Conceptos": [
+      {
+        "ClaveProdServ": "01010101",
+        "NoIdentificacion": "FOLIO12345",
+        "Cantidad": "1",
+        "ClaveUnidad": "ACT",
+        "Unidad": "ACTIVIDAD",
+        "Descripcion": "Venta",
+        "Descuento": "0.00",
+        "ValorUnitario": "26232.75",
+        "Importe": "26232.75",
+        "ObjetoImp": "02",
+        "Impuestos": {
+          "Traslados": [
+            {
+              "Base": "26232.75",
+              "Impuesto": "002",
+              "TipoFactor": "Tasa",
+              "TasaOCuota": "0.160000",
+              "Importe": "4197.24"
+            }
+          ],
+          "Retenciones": [
+            {
+              "Base": "26232.75",
+              "Impuesto": "002",
+              "TipoFactor": "Tasa",
+              "TasaOCuota": "0.040000",
+              "Importe": "1049.31"
+            }
+          ]
+        }
+      }
+    ]
+  }
